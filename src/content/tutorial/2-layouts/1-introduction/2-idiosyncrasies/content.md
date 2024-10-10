@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript is not the web  
+title: Native, not Web  
 focus: /tutorial.component.ts  
-
+editor: false
 ---
 
