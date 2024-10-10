@@ -1,6 +1,8 @@
 ---
 type: tutorial
-mainCommand: ['npm run dev', 'Starting http server']
+mainCommand: ['ns preview -N', 'Starting preview']
 prepareCommands:
-  - ['npm install', 'Installing dependencies']
+  - ['npm i @nativescript/stackblitz', 'Installing dependencies']
+  - ['setup-nativescript-stackblitz', 'Setting up NativeScript']
+autoReload: false
 ---

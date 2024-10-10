@@ -1,38 +1,49 @@
 ---
-type: lesson
-title: Welcome to TutorialKit
-focus: /counter.js
+
+type: lesson  
+title: NativeScript Angular Tutorial  
+focus: /tutorial.component.ts  
+
 ---
 
-# Welcome to TutorialKit
+# NativeScript Angular Tutorial
 
-Hey there, and welcome to TutorialKit 👋!
+Hello,
 
-To kick things off, we have prepared a small demo lesson for you, where we'll dive into the concept of event handling in JavaScript. Our task is to resuscitate a lifeless counter app by introducing the crucial element of interactivity: **event listeners**.
+We're excited to have you embark on this journey to learn how to build native mobile applications using **NativeScript** and **Angular**. This tutorial is designed to guide you step-by-step through the process of creating powerful, interactive, and visually appealing mobile apps that run on both Android and iOS devices.
 
-Let's look at the preview on the right for a moment and try to click on the button that says `counter is 0`. We'll notice that it doesn't work.
+## What to Expect
 
-In the code for `counter.js`, which you can find on the right, we have a `setupCounter` function responsible for initializing our counter app. However, a crucial component is missing: an event listener for the button.
+Throughout this tutorial, you'll explore the rich features of NativeScript and how it seamlessly integrates with Angular to empower you to create native mobile apps using familiar web technologies.
 
-Event listeners are essential in web development as they enable our applications to respond to user actions. In this case, we need to listen for clicks on the button to increment the counter.
+### Key Topics We'll Cover:
 
-To address this, we'll call the `addEventListener` to attach a `click` event listener to the button element. When a click is detected, we'll execute a callback function that increments the counter and updates the `innerHTML` accordingly.
+- **NativeScript Layouts**: Understand how to design responsive and flexible user interfaces using layout containers like `StackLayout`, `GridLayout`, and `FlexboxLayout`.
+- **UI Components**: Dive into NativeScript's diverse set of UI components such as labels, buttons, images, lists, and more to build interactive app interfaces.
+- **Styling and Theming**: Learn how to style your apps using CSS, apply themes, and customize the appearance to match your brand or design preferences.
+- **Navigation**: Master navigation patterns, including navigating between pages, implementing modal dialogs, and using tab views to enhance user experience.
+- **Accessing Native Device Features**: Discover how to leverage device capabilities like the camera, geolocation, accelerometer, and other sensors to create feature-rich applications.
+- **Plugins and Native APIs**: Learn how to extend your app's functionality by integrating NativeScript plugins and accessing native Android and iOS APIs.
 
-```ts add={9}
-export function setupCounter(element) {
-  let counter = 0;
+## Getting Started
 
-  const setCounter = (count) => {
-    counter = count;
-    element.innerHTML = `count is ${counter}`;
-  };
+No prior experience with NativeScript is required, but a basic understanding of Angular will be helpful. Each lesson is carefully crafted to build upon the previous ones, ensuring that you develop a solid foundation before moving on to more advanced topics.
 
-  element.addEventListener('click', () => setCounter(counter + 1));
+## Your First Step
 
-  setCounter(0);
-}
-```
+To begin, simply launch the tutorial in your browser and ensure you have the NativeScript Preview app installed on your mobile device:
 
-This gives you a sneak peak of the TutorialKit experience, demonstrating what it's capable of.
+- **NativeScript Preview App**: Download the NativeScript Preview app from the [App Store](https://apps.apple.com/us/app/nativescript-preview/id1264484702) or [Google Play Store](https://play.google.com/store/apps/details?id=org.nativescript.preview.android).
+- **Scan the QR Code**: Use the Preview app to scan the QR code provided in the tutorial to run your app on your device instantly.
 
-Happy writing!
+No complex setups or configurations are required—we've streamlined the process so you can focus on learning and building.
+
+## Let's Embark on This Journey Together!
+
+By the end of this tutorial, you'll have the skills and confidence to create fully functional native mobile applications using NativeScript and Angular.
+
+Are you ready to transform your web development skills into native mobile app development prowess? Let's get started!
+
+Happy coding! 🎉
+
+---
