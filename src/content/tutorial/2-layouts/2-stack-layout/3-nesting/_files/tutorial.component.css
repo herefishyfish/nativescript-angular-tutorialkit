@@ -1,5 +1,9 @@
 StackLayout[orientation="horizontal"] {
   background-color: #c3ffbb;
+
+  Label {
+    margin: 10;
+  }
 }
 
 StackLayout {
@@ -7,6 +11,8 @@ StackLayout {
 }
 
 Label {
-  font-size: 20;
-  color: #000000;
+  font-size: 16;
+  text-align: center;
+  margin: 2;
+  padding: 8;
 }

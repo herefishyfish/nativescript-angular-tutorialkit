@@ -10,3 +10,5 @@ editor:
 
 # NativeScript Layouts
 
+- {N} != Web
+- Flat is best

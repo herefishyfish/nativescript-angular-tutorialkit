@@ -1,3 +1,12 @@
-.header {
-  background: linear-gradient(to right, #8b5cf6, #6366f1);
+Label[colSpan="2"] {
+  background-color: #a2ecff;
+}
+
+Label {
+  background-color: #ffcc80;
+  font-size: 16;
+  text-align: center;
+  margin: 2;
+  padding: 8;
+  border: 1 solid #919191;
 }
