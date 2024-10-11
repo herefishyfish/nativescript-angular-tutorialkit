@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: What is a StackLayout
+title: Stack Layouts
 focus: /tutorial.component.html
 slug: introduction
 editor:

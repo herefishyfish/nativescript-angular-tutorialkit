@@ -1,0 +1,12 @@
+StackLayout[orientation="horizontal"] {
+  background-color: #c3ffbb;
+}
+
+StackLayout {
+  background-color: #bbefff;
+}
+
+Label {
+  font-size: 20;
+  color: #000000;
+}
