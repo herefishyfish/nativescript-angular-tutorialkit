@@ -28,7 +28,7 @@ In the following example, the second child element spans two rows:
 </GridLayout>
 ```
 
-Try to use `rowSpan` to make the last span multiple rows:
+Try to use `rowSpan` to make the last `Label` span multiple rows:
 
 ```xml
 <Label row="1" col="1" colSpan="2" rowSpan="2">Row 2, Col 2 & 3</Label>
