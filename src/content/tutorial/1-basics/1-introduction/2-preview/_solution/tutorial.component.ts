@@ -1,6 +1,5 @@
 import { Component, NO_ERRORS_SCHEMA } from '@angular/core';
-import { Utils, alert } from '@nativescript/core';
-import { isIOS } from '@nativescript/core';
+import { Utils, alert, isIOS } from '@nativescript/core';
 
 @Component({
   standalone: true,
@@ -26,13 +25,5 @@ export class TutorialComponent {
     }
 
     alert(formatMessage(value));
-  }
-
-  getStarted() {
-    alert({
-      message: 'Jump to the next tutorial!',
-      title: 'Get Started',
-      okButtonText: "Let's go!",
-    });
   }
 }
