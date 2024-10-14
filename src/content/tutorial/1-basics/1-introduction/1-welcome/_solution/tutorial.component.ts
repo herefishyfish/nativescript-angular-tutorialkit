@@ -11,7 +11,7 @@ import { Utils, alert, isIOS } from '@nativescript/core';
 export class TutorialComponent {
   // 👇 Leverage native APIs to get the battery level! 
   getBatteryLevel() {
-    const formatMessage = (level: any) => `The Battery Level is: ${level}%`;
+    const formatMessage = (level) => `The Battery Level is: ${level}%`;
 
     let value = 0;
     if (isIOS) {
