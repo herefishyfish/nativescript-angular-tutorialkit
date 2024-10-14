@@ -1,6 +1,5 @@
-import { Component, NO_ERRORS_SCHEMA } from '@angular/core';
-import { Utils, alert } from '@nativescript/core';
-import { isIOS } from '@nativescript/core';
+import { Component, NO_ERRORS_SCHEMA, inject } from '@angular/core';
+import { Page, Utils, alert, isIOS } from '@nativescript/core';
 import { CanvasBackgroundComponent } from '../canvas-background.component';
 
 @Component({
@@ -28,5 +27,11 @@ export class BatteryExampleComponent {
     }
 
     alert(formatMessage(value));
+  }
+
+
+  private _page = inject(Page);
+  constructor() {
+    this._page.actionBarHidden = true;
   }
 }

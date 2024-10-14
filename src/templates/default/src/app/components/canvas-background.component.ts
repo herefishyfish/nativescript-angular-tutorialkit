@@ -1,15 +1,16 @@
 import { Component, NgZone, inject } from '@angular/core';
 import { registerElement } from '@nativescript/angular';
+import { Canvas } from '@nativescript/canvas';
 
-registerElement('Canvas', () => require('@nativescript/canvas').Canvas);
+registerElement('Canvas', () => Canvas);
 
 @Component({
   selector: 'app-canvas-background',
   standalone: true,
-  template: ` <Canvas backgroundColor="#0546FF" (ready)="onReady($event)"></Canvas> `,
+  template: ` <Canvas iosOverflowSafeArea="true" backgroundColor="#0546FF" (ready)="onReady($event)"></Canvas> `,
 })
 export class CanvasBackgroundComponent {
-  colors = ['#0546FF', '#5C44E4', '#8514F5', '#F637E3', '#E90464', '#F11653', '#FA2C04'];
+  colors = [/*'#0546FF', '#5C44E4',*/ '#8514F5', '#F637E3', '#E90464', '#F11653', '#FA2C04'];
   points: any[] = [];
   ngZone = inject(NgZone);
   canvas;
@@ -29,8 +30,8 @@ export class CanvasBackgroundComponent {
       this.points.push({
         x: Math.random() * this.canvas.width,
         y: Math.random() * this.canvas.height,
-        vx: (Math.random() - 0.5) * 3,
-        vy: (Math.random() - 0.5) * 3,
+        vx: (Math.random() - 0.5) * 5,
+        vy: (Math.random() - 0.5) * 5,
         color: this.colors[i],
       });
     }
@@ -51,9 +52,9 @@ export class CanvasBackgroundComponent {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
     for (let point of this.points) {
-      let gradient = this.ctx.createRadialGradient(point.x, point.y, 0, point.x, point.y, this.canvas.width / 1.7);
-      gradient.addColorStop(0, point.color + 'FF');
-      gradient.addColorStop(0.4, point.color + '80');
+      let gradient = this.ctx.createRadialGradient(point.x, point.y, 0, point.x, point.y, this.canvas.width);
+      gradient.addColorStop(0, point.color + 'F0');
+      gradient.addColorStop(0.4, point.color + '70');
       gradient.addColorStop(1, point.color + '00');
 
       this.ctx.fillStyle = gradient;
@@ -69,6 +70,6 @@ export class CanvasBackgroundComponent {
 
   resizeCanvas() {
     this.canvas.width = this.canvas.getMeasuredWidth();
-    this.canvas.height = this.canvas.getMeasuredHeight();
+    this.canvas.height = this.canvas.getMeasuredHeight() + 200;
   }
 }
