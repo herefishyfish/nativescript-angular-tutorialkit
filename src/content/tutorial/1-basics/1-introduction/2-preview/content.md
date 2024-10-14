@@ -18,8 +18,6 @@ With NativeScript Preview, you can:
 - **Instant Feedback**: See changes in real-time as you code. Once you scan the QR code, your updates will appear on your device immediately.
 - **Cross-Platform**: Run your app on both Android and iOS with out limitation of the device you're building on.
 
-- **Limitations**: Keep in mind that some advanced plugins or features, may require a full build process that Preview doesn't support.
-
 ## Getting Started
 
 To start using NativeScript Preview:
