@@ -36,8 +36,8 @@ NativeScript also allows us to create rich formatted text using the FormattedStr
 <Label textWrap="true">
   <FormattedString>
     <Span>Hello, </Span>
-    <Span fontWeight="bold" color="blue">World! </Span>
-    <Span>This is a long amount of text</Span>
+    <Span class="text-2xl font-bold text-blue-400">NativeScript!</Span>
+    <Span> high-performance, cross-platform applications with direct access to native APIs that build truly native experiences.</Span>
   </FormattedString>
 </Label>
 ```
