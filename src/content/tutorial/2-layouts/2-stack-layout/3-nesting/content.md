@@ -12,7 +12,6 @@ slug: stack-layout-nesting
 
 You can nest multiple layouts within each other to create complex layouts. 
 
-## Example
 
 ```xml
 <StackLayout>
