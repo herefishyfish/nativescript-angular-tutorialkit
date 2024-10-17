@@ -3,7 +3,7 @@
 type: lesson  
 title: NativeScript Angular Tutorial  
 focus: /tutorial.component.ts  
-
+slug: nativescript-angular
 ---
 
 # NativeScript Angular Tutorial

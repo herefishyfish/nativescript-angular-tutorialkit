@@ -3,6 +3,7 @@ type: lesson
 title: NativeScript Preview
 focus: /tutorial.component.ts
 editor: false
+slug: nativescript-preview
 ---
 
 # NativeScript Preview
