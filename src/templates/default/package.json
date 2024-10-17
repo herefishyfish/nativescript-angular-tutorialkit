@@ -21,6 +21,9 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~18.0.0",
     "@angular/compiler-cli": "~18.0.0",
+    "@nativescript-dom/angular-types": "^1.0.8",
+    "@nativescript-dom/core-types": "^1.0.31",
+    "@nativescript/android": "8.8.5",
     "@nativescript/preview-cli": "1.0.13",
     "@nativescript/stackblitz": "0.0.8",
     "@nativescript/tailwind": "^2.1.0",
