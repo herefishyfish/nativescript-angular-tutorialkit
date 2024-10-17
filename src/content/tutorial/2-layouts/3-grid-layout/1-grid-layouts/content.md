@@ -38,7 +38,7 @@ In the above example, the GridLayout has three rows and three columns. The `rows
 Try and add three more labels into the third row:
 ```xml
   <!-- Row 3 -->
-  <Label row="2" col="0">Row 2, Col 1</Label>
-  <Label row="2" col="1">Row 2, Col 2</Label>
-  <Label row="2" col="2">Row 2, Col 3</Label>
+  <Label row="2" col="0">Row 3, Col 1</Label>
+  <Label row="2" col="1">Row 3, Col 2</Label>
+  <Label row="2" col="2">Row 3, Col 3</Label>
 ```
