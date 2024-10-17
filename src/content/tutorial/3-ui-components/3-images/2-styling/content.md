@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Image Styling 
 focus: /tutorial.component.ts  
-
+slug: ui-image-styles
 ---
 

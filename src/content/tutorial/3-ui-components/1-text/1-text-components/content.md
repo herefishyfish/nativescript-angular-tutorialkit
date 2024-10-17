@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Overview
 focus: /tutorial.component.ts  
-
+slug: ui-text-overview
 ---
 

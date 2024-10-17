@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: List View & Templates
 focus: /tutorial.component.ts  
-
+slug: list-view-templates
 ---
 

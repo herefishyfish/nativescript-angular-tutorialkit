@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Buttons
 focus: /tutorial.component.ts  
-
+slug: ui-button
 ---
 

@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Text Views
 focus: /tutorial.component.ts  
-
+slug: ui-text-views
 ---
 

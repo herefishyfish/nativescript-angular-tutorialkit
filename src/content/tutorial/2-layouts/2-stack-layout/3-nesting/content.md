@@ -5,6 +5,7 @@ title: Nesting Layouts
 focus: /tutorial.component.html  
 editor: 
   fileTree: false
+slug: stack-layout-nesting
 ---
 
 # Nesting Layouts

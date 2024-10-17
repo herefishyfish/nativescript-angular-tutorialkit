@@ -4,6 +4,7 @@ title: Labels
 focus: /tutorial.component.html
 editor:
   fileTree: false
+slug: labels
 ---
 
 # Labels

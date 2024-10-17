@@ -5,6 +5,7 @@ title: Defining rows and columns
 focus: /tutorial.component.html  
 editor:
   fileTree: false
+slug: grid-rows
 ---
 
 # Rows & Columns

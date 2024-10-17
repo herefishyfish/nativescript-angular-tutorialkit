@@ -1,7 +1,7 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Sliders 
 focus: /tutorial.component.ts  
 
 ---

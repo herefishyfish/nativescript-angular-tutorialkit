@@ -1,7 +1,7 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Indicators  
 focus: /tutorial.component.ts  
 
 ---

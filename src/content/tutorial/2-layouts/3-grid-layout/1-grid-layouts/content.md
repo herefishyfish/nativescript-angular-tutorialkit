@@ -5,6 +5,7 @@ title: Grid Layouts
 focus: /tutorial.component.html
 editor:
   fileTree: false  
+slug: grid-layout
 
 ---
 

@@ -5,7 +5,7 @@ title: Spanning elements
 focus: /tutorial.component.html
 editor:
   fileTree: false
-
+slug: grid-spans
 ---
 
 ## Spanning Rows and Columns

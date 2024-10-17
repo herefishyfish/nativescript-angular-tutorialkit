@@ -1,4 +1,5 @@
 ---
 type: chapter
-title: Introduction
+title: Flexbox Layouts
+slug: flexboxs
 ---

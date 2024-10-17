@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Keyboard
 focus: /tutorial.component.ts  
-
+slug: ui-keyboard
 ---
 

@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Collection View 
 focus: /tutorial.component.ts  
-
+slug: collection-view
 ---
 

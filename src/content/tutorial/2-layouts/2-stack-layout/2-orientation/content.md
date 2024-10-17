@@ -5,6 +5,7 @@ title: Orientation
 focus: /tutorial.component.html  
 editor:
   fileTree: false
+slug: stack-layout-orientation
 
 ---
 

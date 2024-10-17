@@ -2,7 +2,7 @@
 type: lesson
 title: Stack Layouts
 focus: /tutorial.component.html
-slug: stack-layout-introduction
+slug: stack-layout
 editor:
   fileTree: false
 ---

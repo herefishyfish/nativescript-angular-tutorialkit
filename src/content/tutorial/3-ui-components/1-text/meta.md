@@ -1,4 +1,5 @@
 ---
 type: chapter
-title: Introduction
+title: Text Components
+slug: text-components
 ---

@@ -1,8 +1,8 @@
 ---
 
 type: lesson  
-title: NativeScript Angular Tutorial  
+title: Tap Event
 focus: /tutorial.component.ts  
-
+slug: ui-button-tap-event
 ---
 
