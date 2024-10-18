@@ -16,10 +16,10 @@ The core `TextField` is essential for allowing users to input text in your app.
 To create a text field in NativeScript, use the <TextField> element:
 
 ```xml
-<TextField hint="Enter your name"></TextField>
+<TextField hint="Enter your username"></TextField>
 ```
 
-In this example, the text field displays a placeholder text "Enter your name" when it's empty. This hint helps users understand what input is expected.
+In this example, the text field displays a placeholder text "Enter your username" when it's empty. This hint helps users understand what input is expected.
 
 ## Binding Text Input
 

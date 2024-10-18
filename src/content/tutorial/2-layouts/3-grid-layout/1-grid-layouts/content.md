@@ -33,7 +33,7 @@ Here's an example of a GridLayout with three rows and three columns:
 </GridLayout>
 ```
 
-In the above example, the GridLayout has three rows and three columns. The `rows` and `columns` properties define the size of the rows and columns. The `row` and `col` properties of each child element define the row and column index where the element should be placed.
+In the above example, the GridLayout has two rows and three columns. The `rows` and `columns` properties define the size of the rows and columns. The `row` and `col` properties of each child element define the row and column index where the element should be placed.
 
 Try and add three more labels into the third row:
 ```xml
