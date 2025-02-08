@@ -1,38 +1,17 @@
 import { Component, NO_ERRORS_SCHEMA } from '@angular/core';
-import { Utils, alert } from '@nativescript/core';
-import { isIOS } from '@nativescript/core';
 
 @Component({
   standalone: true,
-  selector: 'tutorial',
-  templateUrl: './tutorial.component.html',
-  styleUrls: ['./tutorial.component.css'],
+  template: `<Image src="~/images/sample.png" class="custom-image" stretch="aspectFill"></Image>`,
+  styles: [
+    `
+      .custom-image {
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+    `,
+  ],
   schemas: [NO_ERRORS_SCHEMA],
 })
-export class TutorialComponent {
-  // 👇 Leverage native APIs to get the battery level! 
-  getBatteryLevel() {
-    const formatMessage = (level: any) => `The Battery Level is: ${level}%`;
-
-    let value = 0;
-    if (isIOS) {
-      // iOS direct native access! 🚀
-      value = UIDevice.currentDevice.batteryLevel * 100;
-    } else {
-      // Android direct native access! 👀
-      const context = Utils.android.getApplicationContext();
-      const bm = context.getSystemService('batterymanager');
-      value = bm.getIntProperty(4);
-    }
-
-    alert(formatMessage(value));
-  }
-
-  getStarted() {
-    alert({
-      message: 'Jump to the next tutorial!',
-      title: 'Get Started',
-      okButtonText: "Let's go!",
-    });
-  }
-}
+export class TutorialComponent {}
