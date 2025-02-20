@@ -14,7 +14,7 @@ In this lesson, you'll learn how to display and style images in your NativeScrip
 To display a local image, use the following syntax:
 
 ```xml
-<Image src="~/images/sample.png" stretch="aspectFill"></Image>
+<Image src="~/images/sample.png"></Image>
 ```
 
 This example loads an image from the local assets folder and adjusts its aspect ratio.
@@ -36,6 +36,6 @@ Apply the custom style to your image:
 Then, apply the CSS class to your image:
 
 ```xml
-<Image src="~/images/sample.png" class="custom-image" stretch="aspectFill"></Image>
+<Image src="~/images/sample.png" class="custom-image"></Image>
 ```
 
