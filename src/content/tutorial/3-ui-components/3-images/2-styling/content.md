@@ -6,10 +6,7 @@ focus: /tutorial.component.html
 slug: ui-image-styles
 ---
 
-<!-- Talk about the different aspects -->
-# Image Styling
-
-### Aspect fits
+# Fitting Image Content
 
 The `aspectFit` property of the `Image` component allows you to specify how the image should be resized to fit the available space. The `aspectFit` property can be set to one of the following values:
 
